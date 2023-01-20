@@ -14,7 +14,7 @@ receivers:
     smarthost: smtp-mail.outlook.com:587
     auth_username: "innopolis_sne22@outlook.com"
     auth_identity: "innopolis_sne22@outlook.com"
-    auth_password: "P@ssword1SNE2022"
+    auth_password: <SMTP_Password>
 
   - send_resolved: true
     to: Mailtosamsoni@gmail.com
@@ -22,7 +22,7 @@ receivers:
     smarthost: smtp-mail.outlook.com:587
     auth_username: "innopolis_sne22@outlook.com"
     auth_identity: "innopolis_sne22@outlook.com"
-    auth_password: "P@ssword1SNE2022"
+    auth_password: <SMTP_Password>
 
   - send_resolved: true
     to: michaelsopara@gmail.com 
@@ -30,4 +30,4 @@ receivers:
     smarthost: smtp-mail.outlook.com:587
     auth_username: "innopolis_sne22@outlook.com"
     auth_identity: "innopolis_sne22@outlook.com"
-    auth_password: "P@ssword1SNE2022"
+    auth_password: <SMTP_Password>
